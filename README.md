@@ -84,6 +84,7 @@ To use the tax calculator:
 
 
 *3. Age ≥ 60*
+![img9](https://github.com/Aj-ninja007/Tax-Calculator/assets/113469532/59f8b669-b54e-4d80-a0ac-02938202655b)
 
 
 
