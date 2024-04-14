@@ -46,3 +46,45 @@ To use the tax calculator:
 - Input the gross income, extra income, age group, and total deductions.
 - Click the submit button to calculate the overall income and display the result.
 - If any input is invalid, error messages will be shown to guide the user on how to correct the inputs.
+
+## Test Cases
+**Case 1: Tooltip is shown when hovering over the question mark icons**
+![img1](https://github.com/Aj-ninja007/Tax-Calculator/assets/113469532/650c3ff4-773d-4ad3-ab0c-d8ef1aadaafc)
+
+
+**Case 2: Display error icons if the user clicks the submit button without entering input. Error message states "This input field is mandatory"**<br/>
+*Image 1:* Default State & *Image 2:* After clicking the submit button for empty fields
+![img2](https://github.com/Aj-ninja007/Tax-Calculator/assets/113469532/09829fe1-a5fc-414e-ac02-6b4bc1d8a3b1)
+
+
+**Case 3: Error icons will appear if a negative value is entered in the Number fields. These fields only accept 0 or positive numbers. Error message states "Please enter non-negative numbers only"**
+![img3](https://github.com/Aj-ninja007/Tax-Calculator/assets/113469532/d381d257-db49-4e3f-aab3-318d73d12f90)
+
+
+**Case 4: Error icons will appear if characters are entered in the Number fields instead of a number. Error message states "Please enter numbers only."**
+![img4](https://github.com/Aj-ninja007/Tax-Calculator/assets/113469532/a29cb3f0-cd2d-453b-8347-f1625a18e2e1)
+
+
+**Case 5: Display error icons when all number fields are filled, but the age group is not selected. Error message states "This input field is mandatory."**
+![img5](https://github.com/Aj-ninja007/Tax-Calculator/assets/113469532/c21b28fd-0887-403a-aa96-ca3da9998622)
+
+
+**Case 6: If Gross Income +  Extra Income - Total Deductions is ≤ 8 lakhs then no income tax is applicable. So overall income will be Gross Income +  Extra Income.**
+![img6](https://github.com/Aj-ninja007/Tax-Calculator/assets/113469532/5fbc5e81-e9b8-4ff9-8060-cc08cac8ae0b)
+
+
+**Case 7: If Gross Income +  Extra Income - Total Deductions is > 8 lakhs then income tax is applicable based on age group. So overall income will be calculated accordingly.**<br/>
+*1. Age < 40*
+![img7](https://github.com/Aj-ninja007/Tax-Calculator/assets/113469532/f733c6e2-9991-40a1-949a-35e3f964812d)
+
+
+*2. Age ≥ 40 & < 60*
+![img8](https://github.com/Aj-ninja007/Tax-Calculator/assets/113469532/1d10df9b-4b01-43ef-b0bc-4c26f0a5c9b8)
+
+
+
+*3. Age ≥ 60*
+
+
+
+
